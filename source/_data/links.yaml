@@ -1,0 +1,21 @@
+青春样:
+    link: http://www.qcyoung.com/
+    avatar: /img/links/qingchunyang.png
+    # descr: "这是一个描述"
+menVScode:
+    link: http://menvscode.com/
+    avatar: /img/links/links.png
+    # descr: "这是一个描述"
+梁同桌的博客:
+    link: https://liangtongzhuo.com
+    avatar: https://liangtongzhuo.com/favicon.ico
+    # descr: "这是一个描述"
+凯凯刘:
+    link: http://liujinkai.com
+    avatar: http://liujinkai.com/favicon.ico
+    descr: "Indie Maker, 互联网工作10年..."
+
+增加链接:
+    link: /add-link/
+    avatar: /img/links/add.png
+    # descr: "这是一个描述"

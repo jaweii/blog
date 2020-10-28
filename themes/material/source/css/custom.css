@@ -1,0 +1,34 @@
+.sidebar-toggle {
+	display: initial;
+	background: rgba(255,255,255,0.75)!important;
+	border-radius: 50%;
+	box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12);
+	display: flex!important;
+	justify-content: center!important;
+	align-items: center!important;
+	padding: 0!important;
+}
+
+@media screen and (min-width: 400px) {
+	.prettyprint.linenums.prettyprinted{
+		position:relative;
+		overflow: visible!important;
+		padding:0!important;
+		background:#151718!important;
+	}
+	.prettyprinted:after {
+		content:"";
+		position:absolute;
+		left:-30px;
+		top:-30px;
+		bottom:-30px;
+		right:-30px;
+		width:200%;
+		background:#ABB8C3;
+		z-index:-1;
+	}
+	.linenums{
+		margin: 40px;
+	    box-shadow: rgba(0, 0, 0, 0.55) 0px 20px 68px;
+	}
+}
