@@ -1,1 +1,0 @@
-start /b pm2 start blog.js
