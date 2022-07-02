@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.4.4"
+    "version": "3.9.0"
   },
   "scripts": {
-    "start": "pm2 start launch.js"
+    "start": "pm2 start launch.js --name blog"
   },
   "dependencies": {
     "hexo": "^3.2.0",
