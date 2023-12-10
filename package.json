@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "pm2 start launch.js --name blog",
-    "build": "hexo generate"
+    "build": "node -v && hexo generate"
   },
   "dependencies": {
     "hexo": "^3.2.0",
