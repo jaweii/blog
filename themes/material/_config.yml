@@ -20,7 +20,7 @@ head:
 url:
     rss:
     daily_pic: "#"
-    logo: "#"
+    logo: "/about"
 
 
 # ---------------------------------------------------------------
@@ -39,7 +39,7 @@ uiux:
     theme_color: "#0097A7"
     theme_sub_color: "#00838F"
     hyperlink_color: "#00838F"
-    button_color: "#757575"
+    button_color: "#0097a7"
     android_chrome_color: "#0097A7"
     nprogress_color: "#29d"
     nprogress_buffer: "800"
@@ -67,8 +67,8 @@ background:
     purecolor: "#F5F5F5"
     #bgimg: "/img/bg.png"
     bing:
-        enable: false
-        parameter:
+        enable: true
+        parameter: color=multi
 
 # Images Settings
 img:
@@ -91,7 +91,7 @@ img:
 #          to /source/data/head.yml as custom code, to load custom font files.
 fonts:
     family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif
-    use: google
+    use: baomitu
     custom_font_host:
 
 # Card Elevation Level
@@ -100,7 +100,7 @@ card_elevation: 2
 # Copyright
 # Specify the date when the site was setup.
 #    For example, if you set it as 2015, then footer will show '© 2015 - 2017'
-copyright_since:
+copyright_since: 2015
 
 # Footer Text
 # You can specify the text you want to show in footer, HTML tag is supported.
@@ -124,8 +124,8 @@ qrcode:
 #    Prettify
 #        theme: # Available value in /source/css/prettify/[theme].min.css
 prettify:
-    enable: false
-    theme: "github-v2"
+    enable: true
+    theme: "tomorrow-night-bright"
 
 #    Hanabi (https://github.com/egoist/hanabi)
 #        line_number: [true/false] # Show line number for code block
@@ -159,7 +159,7 @@ toc:
 
 # SNS Menu
 sns:
-    email: null@undefined.private
+    email: 1005945485@qq.com
     facebook: 
     twitter: 
     googleplus: 
@@ -184,7 +184,7 @@ sns_share:
 
 # Sidebar Customize
 sidebar:
-    dropdown:
+    # dropdown:
         # Email Me:
             # link: "#"
             # icon: email
@@ -205,16 +205,29 @@ sidebar:
             link: "/about"
             icon: person
             divider: false
+        友情链接:
+            link: "/links"
+            icon: link
+            divider: false
+    functions:
+        use: true
+        押韵助手:
+            link: https://yayunla.com
+        英字风格转换器:
+            link: http://buzhundong.com/weword
+        SmartDraw:
+            link: http://smartdraw.buzhundong.com
+        Parse中文文档:
+            link: https://parse-zh.buzhundong.com
     article_num:
         use: false
         divider: false
     footer:
-        divider: true
+        # divider: true
         theme: false
         support: false
         feedback: false
         material: false
-
 
 
 # ---------------------------------------------------------------
@@ -232,19 +245,19 @@ comment:
     changyan_appid:
     changyan_conf:
     changyan_thread_key_type: path
-    livere_data_uid:
+    livere_data_uid: MTAyMC8zMjgzOC85Mzk5
     gitment_repo:   # git repo of the hexo
     gitment_owner:  # git repo's owner
     gitment_client_id:  # github app client id 
     gitment_client_secret :  # github app client secret 
     valine_leancloud_appId:  2WUPvO7f8BvQozj1XutvpqrY-gzGzoHsz # leancloud application app id
     valine_leancloud_appKey:  I0nylYjpOPwcswhfJkjUklpu # leancloud application app key
-    valine_notify: false # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
-    valine_verify: false # valine verify code (true/false)
+    valine_notify: true # valine mail notify (true/false) https://github.com/xCss/Valine/wiki
+    valine_verify: true # valine verify code (true/false)
     valine_pageSize: 10 # comment list page size
     valine_avatar: identicon # gravatar style https://valine.js.org/#/avatar
     valine_lang: zh-cn # i18n
-    valine_placeholder: Just go go # valine comment input placeholder(like: Please leave your footprints )
+    valine_placeholder: 说点什么吧……\n记得填写邮箱，以便收到回复通知…… # valine comment input placeholder(like: Please leave your footprints )
     valine_guest_info: nick,mail,link #valine comment header info
     gitalk_repo: # git repo of the hexo
     gitalk_owner: # git repo's owner
@@ -263,8 +276,8 @@ search:
 #     baidu | google | cnzz
 analytics:
     google_site_id:
-    baidu_site_id:
-    cnzz_site_id:
+    baidu_site_id: 9303a4371eda5b7d203afafd5dbe6c96
+    cnzz_site_id: 1260497140
 
 # Leancloud Views
 leancloud:
@@ -288,7 +301,8 @@ vendors:
 #   You can load theme unique files from your private cdn or oss.
 #   The new src will have the base domain you configured below.
 #   For example
-    materialcdn: https://cdn.jsdelivr.net/gh/bollnh/hexo-theme-material@1.5.6/source
+#       materialcdn: https://cdn.jsdelivr.net/npm/hexo-material@1.4.0/source
+    materialcdn:
 
 # Third party library
 #   You can load these files from public cdn.
