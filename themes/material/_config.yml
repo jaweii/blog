@@ -214,9 +214,9 @@ sidebar:
         押韵助手:
             link: https://yayunla.com
         英字风格转换器:
-            link: https://www.buzhundong.com/weword
+            link: /weword
         SmartDraw:
-            link: https://www.buzhundong.com/smartdraw
+            link: /smartdraw
         Parse中文文档:
             link: https://parse-zh.buzhundong.com
     article_num:
