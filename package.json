@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "pm2 start launch.js --name blog",
-    "build": "node -v && hexo generate"
+    "build": "node -v && hexo generate && mv ./weword public/weword && mv ./smartdraw && public/smartdraw"
   },
   "dependencies": {
     "hexo": "^3.2.0",
