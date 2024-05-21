@@ -2,10 +2,6 @@
     link: http://www.qcyoung.com/
     avatar: /img/links/qingchunyang.png
     # descr: "这是一个描述"
-menVScode:
-    link: http://menvscode.com/
-    avatar: /img/links/links.png
-    # descr: "这是一个描述"
 梁同桌的博客:
     link: https://liangtongzhuo.com
     avatar: https://liangtongzhuo.com/favicon.ico
@@ -14,10 +10,6 @@ menVScode:
     link: http://liujinkai.com
     avatar: http://liujinkai.com/favicon.ico
     descr: "Indie Maker, 互联网工作10年..."
-调皮豆干:
-    link: https://blog.catrol.cn/
-    avatar: https://avatars.githubusercontent.com/u/50760269
-    descr: 喜欢编程，打游戏以及学习（不是）。
 
 
 增加链接:
