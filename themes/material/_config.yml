@@ -219,8 +219,8 @@ sidebar:
             link: /smartdraw
         Parse中文文档:
             link: https://parse-zh.buzhundong.com
-        图改改:
-            link: http://tugaigai.com
+        Edit Text in image online:
+            link: https://photext.shop
     article_num:
         use: false
         divider: false
