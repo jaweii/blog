@@ -2,7 +2,7 @@
 # Site Information Settings
 # ---------------------------------------------------------------
 
-# Head info
+# Head info 
 head:
     favicon: "/img/favicon.png"
     high_res_favicon: "/img/favicon.png"
